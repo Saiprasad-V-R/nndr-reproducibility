@@ -11,7 +11,7 @@ python -m pip install -r synthetic/requirements.txt
 python -m pip install -r empirical/requirements.txt
 ```
 
-The archived calculation scripts retain their manuscript implementations. The toolkit is a mathematical comparison reference, not a replacement execution dependency. Dataset attribution and redistribution terms are recorded in [empirical/DATA_LICENSES.md](empirical/DATA_LICENSES.md).
+The archived calculation scripts retain their manuscript implementations. The [general-purpose NNDR toolkit](https://github.com/Saiprasad-V-R/nndr-toolkit) is a mathematical comparison reference, not a replacement execution dependency. Dataset attribution and redistribution terms are recorded in [empirical/DATA_LICENSES.md](empirical/DATA_LICENSES.md).
 
 ## Run
 
@@ -23,6 +23,6 @@ For synthetic experiments, use the command inventory in [synthetic/README.md](sy
 
 Both parts retain the revised rate-based variance-response ratio \(R_A\) and the discrete one-step ratio \(R_\sigma\), with the appropriate stability and principal-log admissibility checks. Extraction methods, regularization, shrinkage, response-support definitions and directional conventions are experiment-specific and preserved in source. The [synthetic consistency audit](synthetic/MATHEMATICAL_CONSISTENCY.md), [empirical verification notes](empirical/README.md) and [reproducibility guide](REPRODUCIBILITY.md) state the numerical checks and limits.
 
-The empirical part contains one EHG, one EEG, one freezing-of-gait and one push-up recording, plus archived EHG and seizure EEG cohort summary tables and source scripts. The full cohorts were not rerun here; see the cohort guides for the archived-summary route and its limits. The representative FoG and push-up examples do not establish population-wide mechanisms.
+The empirical part contains four representative examples: [uterine EHG](empirical/01_uterine_ehg/README.md), [seizure EEG](empirical/02_seizure_eeg/README.md), [freezing of gait](empirical/03_freezing_of_gait/README.md), and [push-up motion](empirical/04_pushup/README.md). It also contains archived EHG and seizure EEG cohort summary tables and source scripts. The full cohorts were not rerun here; see the cohort guides for the archived-summary route and its limits. The representative FoG and push-up examples do not establish population-wide mechanisms.
 
-No GitHub commit or upload has been made. The complete local push-up example is excluded by `.gitignore` from the initial public commit until the data owner confirms publication permission and an explicit data license. The reproduction repository has no approved software license yet; the MIT license of `nndr-toolkit` does not automatically license this separate archive. `CITATION.cff` identifies the manuscript and repository without claiming an unissued software version or DOI.
+Didier, the original push-up recording owner, authorized publication; the complete push-up example is included. No specific data license has been assigned. The reproduction repository has no approved software license yet; the MIT license of `nndr-toolkit` does not automatically license this separate archive. `CITATION.cff` identifies the manuscript and repository without claiming an unissued software version or DOI.

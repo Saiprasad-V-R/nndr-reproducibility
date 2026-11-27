@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3.8pt}
+\begin{tabular}{lllcccccccc}
+\toprule
+Signal & Method & Class & $n$ & $\rho(\widehat F)$ & $\sigma_{\max}(\widehat F)$ & $\rho(\Gamma)$ & $\sigma_{\max}(\Gamma)$ & $R_A$ & $R_B$ & $P_{\rm boot}[\rho(\Gamma)<1<\sigma_{\max}(\Gamma)]$ \\
+\midrule
+Raw & M2 & low & 1913 & 0.663 & 0.759 & 0.620 & 0.734 & 0.248 & 0.343 & 0.000 \\
+ & M2 & high & 338 & 0.699 & 0.904 & 0.679 & 0.886 & 0.460 & 0.678 & 0.035 \\
+ & M3 & low & 1913 & 0.663 & 0.759 & 0.602 & 0.606 & 0.010 & 0.014 & 0.000 \\
+ & M3 & high & 338 & 0.699 & 0.904 & 0.694 & 0.898 & 0.474 & 0.699 & 0.037 \\
+\addlinespace
+Adaptive 1--15 Hz & M2 & low & 1913 & 0.675 & 0.804 & 0.680 & 0.775 & 0.233 & 0.332 & 0.000 \\
+ & M2 & high & 338 & 0.721 & 0.947 & 0.726 & 0.930 & 0.501 & 0.769 & 0.117 \\
+ & M3 & low & 1913 & 0.675 & 0.804 & 0.657 & 0.687 & 0.076 & 0.105 & 0.000 \\
+ & M3 & high & 338 & 0.721 & 0.947 & 0.732 & 0.943 & 0.533 & 0.807 & 0.138 \\
+\addlinespace
+Adaptive 1--24 Hz & M2 & low & 1913 & 0.657 & 0.758 & 0.620 & 0.733 & 0.244 & 0.337 & 0.000 \\
+ & M2 & high & 338 & 0.703 & 0.915 & 0.683 & 0.898 & 0.478 & 0.708 & 0.045 \\
+ & M3 & low & 1913 & 0.657 & 0.758 & 0.598 & 0.603 & 0.010 & 0.014 & 0.000 \\
+ & M3 & high & 338 & 0.703 & 0.915 & 0.697 & 0.910 & 0.494 & 0.731 & 0.048 \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\caption{Final class-conditioned push-up diagnostics. The activity class is defined causally from the raw acceleration envelope and the same labels are used for all signal variants. $R_A$ is the continuous-time variance-kernel normalization and $R_B$ is the exact discrete-time one-step amplification normalization. The final column is the fraction of 5-s circular-block bootstrap replicates satisfying $\rho(\Gamma)<1<\sigma_{\max}(\Gamma)$.}
+\label{tab:pushup_final_subsets}
+\end{table*}

@@ -1,0 +1,92 @@
+PUSH-UP DEFINITIVE LOW/HIGH SUBSET ANALYSIS
+==============================================================================
+
+Sampling rate              : 50.08542804 Hz
+Sampling step              : 0.01996589 s
+Causal envelope threshold  : 0.54983546
+Bootstrap block length     : 5.000 s
+Bootstrap replicates       : 2000
+
+Bootstrap unit: chronological original one-step pairs (x_t,x_{t+1},label_t) in circular 5-s blocks.
+
+POINT ESTIMATES
+------------------------------------------------------------------------------
+                     variant method regime  n_pairs     rhoF   sigmaF  rhoGamma  sigmaGamma  gain_over_rho         K        RA        RB spectrum_type
+                raw_demeaned     M2    low     1913 0.662967 0.759158  0.619985     0.73437         1.1845  0.897533  0.248457   0.34267  complex_pair
+                raw_demeaned     M3    low     1913 0.662967 0.759158    0.6017    0.606252        1.00756 0.0890642 0.0104667  0.014216  complex_pair
+                raw_demeaned     M2   high      338 0.699432 0.903873  0.679004     0.88585        1.30463  0.726141  0.459549  0.677968  complex_pair
+                raw_demeaned     M3   high      338 0.699432 0.903873  0.693899    0.898369        1.29467   0.79295  0.474243  0.698939  complex_pair
+adaptive_phase_residual_1_15     M2    low     1913 0.675353 0.804198   0.68047     0.77542        1.13953   0.54175  0.232537  0.332003  complex_pair
+adaptive_phase_residual_1_15     M3    low     1913 0.675353 0.804198  0.656542    0.687062        1.04649  0.558065 0.0761154    0.1049  complex_pair
+adaptive_phase_residual_1_15     M2   high      338 0.721458 0.946528  0.726401     0.93033        1.28074  0.665746  0.500522  0.768844  complex_pair
+adaptive_phase_residual_1_15     M3   high      338 0.721458 0.946528  0.732334    0.942832        1.28744  0.790174  0.532754   0.80658  complex_pair
+adaptive_phase_residual_1_24     M2    low     1913 0.656577 0.757929  0.620224    0.732562        1.18112   0.79958  0.243802  0.337138  complex_pair
+adaptive_phase_residual_1_24     M3    low     1913 0.656577 0.757929  0.598189    0.602614         1.0074 0.0810299 0.0101166 0.0137305  complex_pair
+adaptive_phase_residual_1_24     M2   high      338 0.703262 0.914504  0.683397    0.897647        1.31351  0.735807  0.477759  0.708039  complex_pair
+adaptive_phase_residual_1_24     M3   high      338 0.703262 0.914504   0.69666    0.909861        1.30603   0.80403  0.494334  0.731436  complex_pair
+
+5-S CIRCULAR BLOCK BOOTSTRAP
+------------------------------------------------------------------------------
+                     variant method regime  n_boot_valid  rhoF_ci95_low  rhoF_ci95_high  sigmaF_ci95_low  sigmaF_ci95_high  rhoGamma_ci95_low  rhoGamma_ci95_high  sigmaGamma_ci95_low  sigmaGamma_ci95_high  RA_ci95_low  RA_ci95_high  RB_ci95_low  RB_ci95_high  frac_sigmaGamma_gt1  frac_rhoGamma_lt1_sigmaGamma_gt1  frac_rhoF_ge1  frac_RA_valid
+                raw_demeaned     M2    low          2000       0.594009        0.708981         0.714291           0.80901           0.556147            0.684101             0.653965              0.798021     0.169237      0.345612     0.231134      0.480302                    0                                 0              0              1
+                raw_demeaned     M3    low          2000       0.594009        0.708981         0.714291           0.80901           0.547657            0.675956             0.586431              0.796674   0.00577367      0.342044   0.00777083      0.472876                    0                                 0              0              1
+                raw_demeaned     M2   high          2000       0.614644        0.753245         0.845134           1.01887           0.598712            0.776359             0.828359                1.0121     0.359429      0.652399     0.535852       1.04259               0.0355                            0.0355              0              1
+                raw_demeaned     M3   high          2000       0.614644        0.753245         0.845134           1.01887           0.593628            0.765667             0.821988               1.01535     0.317739      0.669565       0.4671       1.05519               0.0375                            0.0375              0              1
+adaptive_phase_residual_1_15     M2    low          2000        0.64014        0.731388         0.767076           0.86025           0.607294            0.721167             0.691239              0.847009     0.165452      0.360516     0.231237      0.519944                    0                                 0              0              1
+adaptive_phase_residual_1_15     M3    low          2000        0.64014        0.731388         0.767076           0.86025           0.597329            0.711172             0.632716              0.846257   0.00807359      0.375231    0.0110687      0.538235                    0                                 0              0              1
+adaptive_phase_residual_1_15     M2   high          2000       0.650332        0.777389         0.889144           1.05623           0.653852            0.804712              0.87058               1.04593     0.375647      0.715991     0.568931       1.19691               0.1165                            0.1165              0              1
+adaptive_phase_residual_1_15     M3   high          2000       0.650332        0.777389         0.889144           1.05623           0.646226            0.793325             0.849916               1.05285     0.328404       0.74093     0.483321       1.21576               0.1375                            0.1375              0              1
+adaptive_phase_residual_1_24     M2    low          2000       0.592057        0.704112         0.716991          0.812164             0.5513            0.677345             0.654536              0.799028     0.178614       0.34871     0.244957      0.483511                    0                                 0              0              1
+adaptive_phase_residual_1_24     M3    low          2000       0.592057        0.704112         0.716991          0.812164           0.538706            0.670073             0.582639              0.794675   0.00710997      0.344511   0.00955501      0.478398                    0                                 0              0              1
+adaptive_phase_residual_1_24     M2   high          2000       0.624348        0.760729         0.856201           1.02569           0.607376            0.781535             0.840577               1.01825     0.368865      0.661409     0.548381       1.06507                0.045                             0.045              0              1
+adaptive_phase_residual_1_24     M3   high          2000       0.624348        0.760729         0.856201           1.02569           0.605091             0.76958             0.828093               1.02051       0.3187      0.683028     0.470073       1.07346                0.048                             0.048              0              1
+
+BOOTSTRAP HIGH-MINUS-LOW CONTRASTS
+------------------------------------------------------------------------------
+                     variant method        metric  n_boot_paired  delta_high_minus_low_median  delta_ci95_low  delta_ci95_high  bootstrap_fraction_delta_le_zero
+adaptive_phase_residual_1_15     M2          rhoF           2000                    0.0412219      -0.0325227         0.115577                            0.1555
+adaptive_phase_residual_1_15     M2        sigmaF           2000                     0.143067       0.0533071         0.263676                                 0
+adaptive_phase_residual_1_15     M2      rhoGamma           2000                    0.0540313      -0.0510432         0.171014                            0.2025
+adaptive_phase_residual_1_15     M2    sigmaGamma           2000                     0.155391       0.0516171         0.304401                            0.0005
+adaptive_phase_residual_1_15     M2 gain_over_rho           2000                     0.133694      -0.0121281         0.296809                            0.0405
+adaptive_phase_residual_1_15     M2            RA           2000                     0.262324       0.0796909         0.494334                             0.001
+adaptive_phase_residual_1_15     M2            RB           2000                     0.432303        0.154741          0.87123                            0.0005
+adaptive_phase_residual_1_15     M3          rhoF           2000                    0.0412219      -0.0325227         0.115577                            0.1555
+adaptive_phase_residual_1_15     M3        sigmaF           2000                     0.143067       0.0533071         0.263676                                 0
+adaptive_phase_residual_1_15     M3      rhoGamma           2000                    0.0658903      -0.0463545         0.166974                             0.142
+adaptive_phase_residual_1_15     M3    sigmaGamma           2000                     0.208429        0.047847         0.385615                            0.0055
+adaptive_phase_residual_1_15     M3 gain_over_rho           2000                     0.205776      -0.0106693         0.372174                            0.0305
+adaptive_phase_residual_1_15     M3            RA           2000                     0.360687       0.0808404         0.663993                             0.008
+adaptive_phase_residual_1_15     M3            RB           2000                     0.566562         0.12639          1.09149                            0.0075
+adaptive_phase_residual_1_24     M2          rhoF           2000                    0.0480052      -0.0286204         0.132984                            0.1145
+adaptive_phase_residual_1_24     M2        sigmaF           2000                     0.160478        0.067065         0.283035                                 0
+adaptive_phase_residual_1_24     M2      rhoGamma           2000                    0.0774511      -0.0390216         0.189836                             0.119
+adaptive_phase_residual_1_24     M2    sigmaGamma           2000                      0.17381       0.0653828         0.314572                                 0
+adaptive_phase_residual_1_24     M2 gain_over_rho           2000                     0.125441      -0.0327086         0.303658                             0.065
+adaptive_phase_residual_1_24     M2            RA           2000                     0.236855       0.0732745         0.420714                            0.0025
+adaptive_phase_residual_1_24     M2            RB           2000                     0.381659        0.138568         0.728016                                 0
+adaptive_phase_residual_1_24     M3          rhoF           2000                    0.0480052      -0.0286204         0.132984                            0.1145
+adaptive_phase_residual_1_24     M3        sigmaF           2000                     0.160478        0.067065         0.283035                                 0
+adaptive_phase_residual_1_24     M3      rhoGamma           2000                    0.0840542      -0.0370707         0.176604                            0.0775
+adaptive_phase_residual_1_24     M3    sigmaGamma           2000                     0.251514       0.0758684         0.402204                            0.0025
+adaptive_phase_residual_1_24     M3 gain_over_rho           2000                     0.238114      -0.0116582         0.413911                            0.0305
+adaptive_phase_residual_1_24     M3            RA           2000                      0.37946       0.0869234         0.610025                             0.005
+adaptive_phase_residual_1_24     M3            RB           2000                     0.576655        0.153859         0.953574                            0.0045
+                raw_demeaned     M2          rhoF           2000                     0.038619      -0.0411392         0.117055                            0.1495
+                raw_demeaned     M2        sigmaF           2000                     0.148557       0.0565466         0.277504                            0.0005
+                raw_demeaned     M2      rhoGamma           2000                    0.0660655      -0.0560583         0.182371                            0.1675
+                raw_demeaned     M2    sigmaGamma           2000                     0.160613       0.0562582         0.312561                            0.0005
+                raw_demeaned     M2 gain_over_rho           2000                     0.129251      -0.0300452         0.313983                            0.0685
+                raw_demeaned     M2            RA           2000                     0.224639       0.0588935         0.432457                            0.0015
+                raw_demeaned     M2            RB           2000                     0.360839        0.123599          0.71582                            0.0005
+                raw_demeaned     M3          rhoF           2000                     0.038619      -0.0411392         0.117055                            0.1495
+                raw_demeaned     M3        sigmaF           2000                     0.148557       0.0565466         0.277504                            0.0005
+                raw_demeaned     M3      rhoGamma           2000                    0.0704939      -0.0466469         0.166796                             0.115
+                raw_demeaned     M3    sigmaGamma           2000                     0.235537       0.0645888         0.390131                             0.002
+                raw_demeaned     M3 gain_over_rho           2000                     0.242696      -0.0027398         0.422871                            0.0275
+                raw_demeaned     M3            RA           2000                     0.369731       0.0754887         0.595512                             0.006
+                raw_demeaned     M3            RB           2000                     0.557678        0.131967         0.949827                            0.0055
+
+INTERPRETATION
+------------------------------------------------------------------------------
+For a stable reduced map, R_B>1 is exactly equivalent to sigma_max(Gamma)>1. The reported bootstrap fractions therefore show how often the class-conditioned reduced fit crosses the exact one-step amplification threshold under dependence-preserving resampling. R_A is retained as the complementary continuous-time variance-kernel normalization.
