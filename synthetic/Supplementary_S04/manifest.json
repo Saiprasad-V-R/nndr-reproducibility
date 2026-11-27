@@ -1,0 +1,20 @@
+{
+  "figure": "S4 candidate: commutator gap and finite-data validation",
+  "data_source": "V19 T11, 18 independent base subjects; 432 finite-data fits",
+  "data_files": [
+    "T11_full_gap_sample_rows.csv",
+    "T11_cluster_bootstrap_summary.csv"
+  ],
+  "checks": {
+    "n_fits": 432,
+    "DK_holds": 432,
+    "DK_informative": 36,
+    "n_lt_N": 48,
+    "M3_RA_inadmissible": 135,
+    "M2_RA_inadmissible": 175
+  },
+  "output_files": {
+    "figures/SuppFig04_Gap_Sample_Recovery_REVISED.pdf": "901145cc6b4b1cebf5841f83e3743ef3501a55d8ed53b9d8a1041016c20b00a1",
+    "figures/SuppFig04_Gap_Sample_Recovery_REVISED.png": "ac901d3292f86cdde4712ef239e69537d1363d919e8b94ed45050423c20f0c46"
+  }
+}

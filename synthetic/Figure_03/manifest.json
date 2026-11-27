@@ -1,0 +1,50 @@
+{
+  "source_user_filename": "fig3_4_synthetic_transition.py",
+  "scientific_source": "V19 shared/nndr_thresholds.py",
+  "values": [
+    {
+      "case": "1",
+      "kappa": "1.4",
+      "R_A": "0.0990224263419408",
+      "R_sigma": "0.16956491140690472",
+      "K": "0.07841311552730484",
+      "Kc_A": "0.7918722901873905"
+    },
+    {
+      "case": "2",
+      "kappa": "4.066666666666666",
+      "R_A": "0.9857677640196",
+      "R_sigma": "1.4247607814702052",
+      "K": "1.3648750914960863",
+      "Kc_A": "1.3845807717738967"
+    },
+    {
+      "case": "3",
+      "kappa": "37.45431777388043",
+      "R_A": "9.819501561580807",
+      "R_sigma": "14.125588470438855",
+      "K": "14.024192482735534",
+      "Kc_A": "1.42819799913325"
+    },
+    {
+      "case": "4",
+      "kappa": "115.95232112282008",
+      "R_A": "30.423654271702226",
+      "R_sigma": "43.76312435474653",
+      "K": "43.46456840519662",
+      "Kc_A": "1.4286439103281576"
+    }
+  ],
+  "files": {
+    "FIG03_caption.tex": "b40d2ccea92ac81d0bc1b1cd78e0f0f49624693fce2ae3f3e07d28e3edef2636",
+    "README.md": "d36f2651496f4e50342c188351c6e01ed7f37ffa7a646a301f505b2b1745279d",
+    "__pycache__/plot_fig03_original_style.cpython-313.pyc": "75388d93f196c2d23a494d4db9c00742fd880b8b6bb201a91b203e22829aa3d4",
+    "original_fig3_4_synthetic_transition_UNCHANGED.py": "82dbbeb87bd68d6b029201e7a0bc9119dcfe32fc8ae803e0d57827a868642106",
+    "outputs_synthetic_figures/Fig03_RA_Rsigma.pdf": "28050d6e28cbdd614fcf09049bd2b75aee328fec282a8ae70acf18aeec26384b",
+    "outputs_synthetic_figures/Fig03_RA_Rsigma.png": "b4b6ffb7cb4ae7a9876f3e647e912598511ee5e18135a50271f565a4e1a07b41",
+    "outputs_synthetic_figures/Fig03_RA_only.pdf": "adf5cac54157d74c4109c515f5631666655ba0b9408183548640f806e2b5fd6f",
+    "outputs_synthetic_figures/Fig03_RA_only.png": "ca8e2dc62f7bc737633c774b06b0cb18427a8bd2409256c45b5392f0fc0eb407",
+    "outputs_synthetic_figures/Fig03_selected_corrected_ratios.csv": "731fd469363101bbabb9a9daa00c887bb8e8b3ae50ae5e97ddcf3ccbd5bd510e",
+    "plot_fig03_original_style.py": "941178480e352131ee6cd9e5eedbab0e6f683d4f965a1b6b8995f6112a49b978"
+  }
+}

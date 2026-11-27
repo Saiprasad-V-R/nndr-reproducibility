@@ -1,0 +1,55 @@
+{
+  "experiment": "T01 original manuscript Figure 5 updated rates-based R",
+  "N": 100,
+  "M_values": [
+    1,
+    25
+  ],
+  "T_train": 300,
+  "T_test": 1200,
+  "n_kappas": 29,
+  "n_trajectories_fit": 725,
+  "n_method_records": 232,
+  "n_invalid_R": 19,
+  "invalid_status_counts": {
+    "negative_real_multiplier_principal_log_not_real": 14,
+    "unstable_reduced_map": 5
+  },
+  "R_reference_range": [
+    0.041247254212198665,
+    180.46447272489047
+  ],
+  "elapsed_sec": 5.49,
+  "config_sha256": "516b328beac540bc12e586aeb74dac346c8d2846c72adc96d0a128299ab735fa",
+  "script_sha256": "3b01e547337b724403667a982b84143770727a6800a760c764a4c5d52f972ac2",
+  "notes": [
+    "M2(true F) reference is extraction-dependent; not an independently planted physical plane.",
+    "Heldout chronological CV per trajectory; trace-normalized ridge.",
+    "Exact plane maximal correlation is multiple correlation, not raw covariance direction.",
+    "No forced stable rescaling; status for unsupported \u0393 is preserved."
+  ],
+  "M1_M1_median_principal_angle_deg": 83.85928762148441,
+  "M1_M1_median_abs_R_error": 0.7542415498789234,
+  "M1_M1_valid_rate_fraction": 0.7241379310344828,
+  "M1_M1_median_c_plane": 0.16553500053207368,
+  "M1_M2_median_principal_angle_deg": 30.446495095887787,
+  "M1_M2_median_abs_R_error": 2.1254578586272412,
+  "M1_M2_valid_rate_fraction": 0.6206896551724138,
+  "M1_M2_median_c_plane": 0.19220657149060302,
+  "M1_M3_median_principal_angle_deg": 30.613166008288363,
+  "M1_M3_median_abs_R_error": 0.9659384552211236,
+  "M1_M3_valid_rate_fraction": 1.0,
+  "M1_M3_median_c_plane": 0.2154061732990768,
+  "M25_M1_median_principal_angle_deg": 72.41445065866915,
+  "M25_M1_median_abs_R_error": 0.9960722642971155,
+  "M25_M1_valid_rate_fraction": 1.0,
+  "M25_M1_median_c_plane": 0.2055709643916678,
+  "M25_M2_median_principal_angle_deg": 4.799430745548204,
+  "M25_M2_median_abs_R_error": 0.03577706498976063,
+  "M25_M2_valid_rate_fraction": 1.0,
+  "M25_M2_median_c_plane": 0.1984572454479534,
+  "M25_M3_median_principal_angle_deg": 4.483798815941379,
+  "M25_M3_median_abs_R_error": 0.04883298381373535,
+  "M25_M3_valid_rate_fraction": 1.0,
+  "M25_M3_median_c_plane": 0.21241846971828304
+}

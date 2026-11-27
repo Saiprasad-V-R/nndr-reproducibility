@@ -1,0 +1,24 @@
+{
+  "id": "T01-Fig03",
+  "date_utc": "2026-10-20",
+  "elapsed_seconds": 7.609511375427246,
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "source_sha256": {
+    "run.py": "2fccad9ee9fbbcfa0320648059ac4c8e1021399210f2df920410b37c8ec376d2",
+    "config.json": "631d4773bec91eba5f4708a90c713ad4aca3bdf8fc6025baae6eaaffbde75bab",
+    "nndr_thresholds.py": "5f12b65d9162ac60972255ab5d8bf395ff7a31044f3fc149c0c4a5e7bc570e83",
+    "nndr_planes.py": "1c4fcd4b81b11990aa94e44c50aeefc9b1f8b437dba9a302ba98c9d399053b93",
+    "nndr_synthetic_operators.py": "404dc17ee4ba92d07f560d1e6ccbab894bd5e87e09f688d21cd75345d8c3a4ac"
+  },
+  "common_noise_sha256": "d277755f2df875f74ad4f7f8d3a0c2e42348fd977998d3e8da8d8b1276d31576",
+  "checks": {
+    "stable_full_spectra": true,
+    "same_noise_across_cases": true,
+    "corrected_second_case_above_threshold": true,
+    "matched_targets": true,
+    "reduced_gain_not_overstated": true
+  }
+}

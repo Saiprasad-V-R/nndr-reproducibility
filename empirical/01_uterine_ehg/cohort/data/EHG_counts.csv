@@ -1,0 +1,83 @@
+section,metric,method,condition,count,denominator,status,source_file,notes
+recordings,recording_files_considered,all,all,123,,verified,Counts_Source/dataset_manifest.csv,Distinct WFDB .hea/.dat recording stems on local machine; includes an a/b segment of ice039.
+recordings,subjects_considered,all,all,45,,verified,Counts_Source/dataset_coverage.csv,
+recordings,recordings_successfully_processed,all,all,123,,verified,Counts_Source/dataset_manifest.csv,
+recordings,subjects_successfully_processed,all,all,45,,verified,Counts_Source/dataset_coverage.csv,
+cohort,subjects_common_admissible_high_vs_baseline,all,all,44,,verified,01_MAIN_Fig11_RA/Source_CSVs/Fig11_original_panels_subject_RA.csv,Common M2+M3 admissible windows and >=8 valid class windows per recording where effects defined.
+cohort,subjects_admissibility_panel,all,all,45,,verified,01_MAIN_Fig11_RA/Source_CSVs/Fig11_original_panels_subject_RA.csv,
+cohort,subjects_strict_C_marker_panels_pregnancy,all,all,32,,verified,Cohort_Figure11/output/figure_provenance.json,"Contraction panels h,i in preserved Figure11; supplementary timing-placebo uses a narrower 30-subject subset."
+cohort,activity_defined_cohort_events,all,all,,,not_evaluated,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,"High/baseline analysis uses quantile-defined windows, not distinct activity-peak events across all recordings."
+cohort,activity_quantile_high,all,all,0.8,,verified,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,Within-recording quantile of 120-s smoothed Hilbert envelope on window endpoint grid.
+cohort,activity_quantile_baseline,all,all,0.5,,verified,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,
+windows,total_fitted_rolling_windows,physical,all,78776,,verified,Counts_Source/dataset_coverage.csv,"Each physical window is fitted once, then evaluated by M2 and M3; not 157,552 independent windows."
+windows,high_activity_windows,physical,all,15804,78776,verified,Counts_Source/record_activity_admissibility_exact.csv,
+windows,baseline_windows,physical,all,39422,78776,verified,Counts_Source/record_activity_admissibility_exact.csv,
+windows,middle_activity_windows_not_in_contrast,physical,all,23550,78776,verified,Counts_Source/record_activity_admissibility_exact.csv,By subtraction; these windows are not counted as high or baseline.
+windows,total_method_windows,M2,all,78776,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,pre_fit_or_condition_rejected,M2,all,122,78776,verified,Counts_Source/dataset_coverage.csv,Fit failures classified by unregularized predictor effective rank/condition or other fit checks; NOT exact C1 regularized Gram-matrix condition.
+windows,plane_extraction_rejected,M2,all,0,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,plane_valid,M2,all,78654,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,R_A_admissible,M2,all,56746,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,R_sigma_admissible,M2,all,56746,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,complex_reduced_spectrum_windows,M2,all,16811,78776,verified,Counts_Source/dataset_coverage.csv,Count among computed reduced spectra; complex windows are NOT automatically rejected.
+windows,full_fitted_operator_stable_flag,M2,all,78562,78776,verified,Counts_Source/dataset_coverage.csv,"A diagnostic flag, not enforced as a separate C2 exclusion in the saved ratio computation."
+windows,reduced_operator_stable_flag,M2,all,56746,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,C3_reduced_unstable_ratio_excluded,M2,all,21908,78776,verified,Counts_Source/dataset_coverage.csv,"R_sigma reduced-unstable-or-margin flag, excludes ratio; not always exactly rho(Gamma)>=1 because numerical margin also applies."
+windows,C4_negative_real_log_excluded,M2,all,0,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,C2_full_operator_unstable_flag_not_enforced,M2,all,214,78776,verified,Counts_Source/dataset_coverage.csv,Recorded rho(F)>=1 but not independently enforced as C2 ratio-screen; overlaps with other exclusions unknown.
+screening,C1_formal_conditioning_rule,M2,all,,,not_evaluated,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,Pipeline fits screen unregularized predictor cond > 2e4/effective rank < 1.8; does not save the rebuttal C1 regularized Gram-matrix condition with separate rejected count.
+screening,C2_formal_full_operator_exclusion,M2,all,,,not_applied_as_gate,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,"rho(F) tracked, but non-normal reduced ratios were not set missing solely because full F is unstable."
+screening,C3_reduced_stability_gate,M2,all,21908,78776,verified,Counts_Source/dataset_coverage.csv,Reduced-unstable-or-margin ratio rejection; see method code for tolerance/margin.
+screening,C4_negative_real_multiplier_gate,M2,all,0,78776,verified,Counts_Source/dataset_coverage.csv,Number recorded for R_A only. Complex pairs retained.
+screening,C5_model_adequacy_gate,M2,all,,,not_evaluated,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,Full five-test linear-model adequacy gate not implemented or evaluated in this cohort.
+activity_class,windows_before_screening,M2,baseline,39422,78776,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_method_specific,M2,baseline,31797,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_common_M2_M3,M2,baseline,31791,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,"Duplicated between M2 and M3 rows to show the shared physical timestamp set, not two independent counts."
+activity_class,reduced_unstable_flags,M2,baseline,7625,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,full_unstable_flags,M2,baseline,43,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,windows_before_screening,M2,high,15804,78776,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_method_specific,M2,high,9148,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_common_M2_M3,M2,high,9143,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,"Duplicated between M2 and M3 rows to show the shared physical timestamp set, not two independent counts."
+activity_class,reduced_unstable_flags,M2,high,6535,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,full_unstable_flags,M2,high,25,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,
+windows,total_method_windows,M3,all,78776,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,pre_fit_or_condition_rejected,M3,all,122,78776,verified,Counts_Source/dataset_coverage.csv,Fit failures classified by unregularized predictor effective rank/condition or other fit checks; NOT exact C1 regularized Gram-matrix condition.
+windows,plane_extraction_rejected,M3,all,0,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,plane_valid,M3,all,78654,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,R_A_admissible,M3,all,59697,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,R_sigma_admissible,M3,all,59697,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,complex_reduced_spectrum_windows,M3,all,17077,78776,verified,Counts_Source/dataset_coverage.csv,Count among computed reduced spectra; complex windows are NOT automatically rejected.
+windows,full_fitted_operator_stable_flag,M3,all,78562,78776,verified,Counts_Source/dataset_coverage.csv,"A diagnostic flag, not enforced as a separate C2 exclusion in the saved ratio computation."
+windows,reduced_operator_stable_flag,M3,all,59697,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,C3_reduced_unstable_ratio_excluded,M3,all,18957,78776,verified,Counts_Source/dataset_coverage.csv,"R_sigma reduced-unstable-or-margin flag, excludes ratio; not always exactly rho(Gamma)>=1 because numerical margin also applies."
+windows,C4_negative_real_log_excluded,M3,all,0,78776,verified,Counts_Source/dataset_coverage.csv,
+windows,C2_full_operator_unstable_flag_not_enforced,M3,all,214,78776,verified,Counts_Source/dataset_coverage.csv,Recorded rho(F)>=1 but not independently enforced as C2 ratio-screen; overlaps with other exclusions unknown.
+screening,C1_formal_conditioning_rule,M3,all,,,not_evaluated,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,Pipeline fits screen unregularized predictor cond > 2e4/effective rank < 1.8; does not save the rebuttal C1 regularized Gram-matrix condition with separate rejected count.
+screening,C2_formal_full_operator_exclusion,M3,all,,,not_applied_as_gate,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,"rho(F) tracked, but non-normal reduced ratios were not set missing solely because full F is unstable."
+screening,C3_reduced_stability_gate,M3,all,18957,78776,verified,Counts_Source/dataset_coverage.csv,Reduced-unstable-or-margin ratio rejection; see method code for tolerance/margin.
+screening,C4_negative_real_multiplier_gate,M3,all,0,78776,verified,Counts_Source/dataset_coverage.csv,Number recorded for R_A only. Complex pairs retained.
+screening,C5_model_adequacy_gate,M3,all,,,not_evaluated,Provenance/Calculation_Code/ehg_final_v2_full_cohort.py,Full five-test linear-model adequacy gate not implemented or evaluated in this cohort.
+activity_class,windows_before_screening,M3,baseline,39422,78776,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_method_specific,M3,baseline,32983,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_common_M2_M3,M3,baseline,31791,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,"Duplicated between M2 and M3 rows to show the shared physical timestamp set, not two independent counts."
+activity_class,reduced_unstable_flags,M3,baseline,6439,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,full_unstable_flags,M3,baseline,43,39422,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,windows_before_screening,M3,high,15804,78776,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_method_specific,M3,high,9918,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,admissible_common_M2_M3,M3,high,9143,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,"Duplicated between M2 and M3 rows to show the shared physical timestamp set, not two independent counts."
+activity_class,reduced_unstable_flags,M3,high,5765,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,
+activity_class,full_unstable_flags,M3,high,25,15804,verified,Counts_Source/record_activity_admissibility_exact.csv,
+annotations,raw_confirmed_or_likely_C_markers,all,all,398,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotations,raw_possible_parenthesized_c_markers,all,all,71,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotations,strict_eligible_C_markers,all,all,237,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotations,inclusive_covered_C_markers,all,all,335,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotations,strict_C_rejected_insufficient_coverage,all,all,63,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotations,strict_C_rejected_near_another_C,all,all,87,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotations,strict_C_rejected_near_artifact,all,all,10,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotations,strict_C_rejected_near_possible_contraction,all,all,1,,verified,Counts_Source/dataset_C_marker_screening_by_record.csv,Annotation labels; not the high/baseline activity-quantile windows in Figure 11.
+annotation_placebo,180s_common_subjects,all,all,30,,verified,03_SM_Contraction_Timing/Source_CSVs/placebo_run_metadata.json,
+annotation_placebo,180s_common_recordings,all,all,59,,verified,03_SM_Contraction_Timing/Source_CSVs/placebo_run_metadata.json,
+annotation_placebo,180s_common_C_markers,all,all,137,,verified,03_SM_Contraction_Timing/Source_CSVs/placebo_run_metadata.json,
+annotation_placebo,null_replicates_per_control,all,all,2000,,verified,03_SM_Contraction_Timing/Source_CSVs/placebo_run_metadata.json,
+annotation_placebo,120s_full_run_subjects,all,all,31,,verified,EHG_180s_final_audit/FINAL_EHG_CONTRACTION_PLACEBO_READOUT.md,Earlier 120-s full-run sample before strict 180-s-matched subset; shown for context only.
+windows,joint_M2_M3_R_A_R_sigma_admissible,both,all,56731,78776,verified,Counts_Source/joint_admissible_from_cache.csv,Distinct physical window timestamps with both M2 and M3 finite corrected ratios; read-only sum over 123 cached windows.csv files.

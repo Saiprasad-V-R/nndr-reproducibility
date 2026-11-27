@@ -1,0 +1,20 @@
+{
+  "seed": 672341,
+  "dimensions": [8, 16, 24],
+  "anchors_per_dimension": 30,
+  "M": 8,
+  "T_train": 210,
+  "noise_sd": 0.04,
+  "ridge_relative": 0.001,
+  "m2_restarts": 6,
+  "m2_iterations": 170,
+  "cv_folds": 5,
+  "bootstrap_replicates": 2000,
+  "growth_horizons": [1, 2, 4, 8, 16],
+  "kreiss_radii": [1.001, 1.01, 1.04, 1.1, 1.3, 1.8, 3, 8],
+  "kreiss_n_angles": 16,
+  "numerical_kernel_grid": 800,
+  "normal_controls_per_dimension": 10,
+  "repeat_estimation_anchors_per_dimension": 8,
+  "notes": "Paired independent geometry-vs-spectrum interventions; label is generator-controlled and never supplied as an inference feature. Matched two-feature models, grouped CV, normal-spectrum controls, finite-data and oracle diagnostics."
+}

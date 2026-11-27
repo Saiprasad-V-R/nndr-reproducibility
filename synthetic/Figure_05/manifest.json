@@ -1,0 +1,18 @@
+{
+  "figure": "05",
+  "source": "user fig5_method_comparison_M1_M25_balanced_checked.py; corrected numeric results V19 T01",
+  "frozen_results_sha256": "08996009629bffe39d3c2d1de351261ce029633f4f96117a447983029e1fc658",
+  "files": {
+    "FIG05_caption.tex": "653851fe4f29867e35408a70d247a6aa3363be0ab635645b321817f7989a1d10",
+    "README.md": "0d0f1b2c784255720b298b5f4345339b527cbca69342076a5678b3326d94569c",
+    "original_fig5_method_comparison_M1_M25_balanced_checked_UNCHANGED.py": "4bf72b8aea333921a2c5531b83aedcba4b8b00f01ada09e1bca0651a57b60610",
+    "outputs_synthetic_figures/Fig05_RA_Rsigma.pdf": "a7a815e8911cbb158f0de4c41535bce441ac89f5806c9a0e89a6627b3ad2f128",
+    "outputs_synthetic_figures/Fig05_RA_Rsigma.png": "0c0b45350131eb7095acb430827229535dcda8293b33c6520924ffaa98aa8863",
+    "outputs_synthetic_figures/Fig05_RA_only.pdf": "6ae4ae7fb0f4478791edd5975b64ca110fa89d18086b929f9d35654655c46a41",
+    "outputs_synthetic_figures/Fig05_RA_only.png": "ca385cd55c623d3b817f7a574b6fe9936f66a314cbc943a77a40ad86d7d09379",
+    "outputs_synthetic_figures/Fig05_admissibility_by_method.csv": "48a05a1faddc9435b7505fa6cb1d37f7fc92d5d38deff4674358555c4a9c799d",
+    "outputs_synthetic_figures/Fig05_plotting_table_corrected.csv": "01cd4bc8fff51b9452d890beeb1dbd818a521790e2bba4b0b5d87b2dd71f8602",
+    "outputs_synthetic_figures/T01_fig05_full_results_V19.csv": "08996009629bffe39d3c2d1de351261ce029633f4f96117a447983029e1fc658",
+    "plot_fig05_original_style.py": "57a22f482f476255bcb35c0a719352f488b9c12f62c318c2bc2399a1c6d024db"
+  }
+}

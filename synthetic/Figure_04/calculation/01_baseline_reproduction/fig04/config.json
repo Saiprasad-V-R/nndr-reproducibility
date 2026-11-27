@@ -1,0 +1,24 @@
+{
+  "module": "T01-Fig04",
+  "source_manuscript": "arXiv:2607.14786v1, printed page 10, Figure 4; Eq. 43-44",
+  "N": 200,
+  "rho_F": 0.95,
+  "delta_sigma": 0.05,
+  "family_seed": 1,
+  "sigma_noise": 0.05,
+  "T_align": 1000,
+  "n_noise_realizations": 16,
+  "common_noise_seed": 2468,
+  "common_random_numbers_across_kappa": true,
+  "kappa_grid": {
+     "low": [1.0, 7.0, 46],
+     "middle": [7.25, 20.0, 28],
+     "high_geom": [20.5, 450.0, 42]
+  },
+  "m2_restarts": 24,
+  "m2_iterations": 450,
+  "m2_seed": 0,
+  "verification_kappas": [1.0, 4.0, 60.0, 450.0],
+  "publication_x_range": [0.01, 120.0],
+  "ci_method": "interquartile over 16 trajectory correlations; NOT population CI"
+}

@@ -1,0 +1,30 @@
+{
+  "max_population_RA_span": 1.2656542480726785e-14,
+  "n_N40_perlag_each_M": 32,
+  "admissibility": [
+    {
+      "M": 1,
+      "nperlag": 32,
+      "valid_counts": {
+        "1": 0,
+        "2": 7,
+        "4": 22,
+        "8": 26
+      }
+    },
+    {
+      "M": 25,
+      "nperlag": 32,
+      "valid_counts": {
+        "1": 15,
+        "2": 22,
+        "4": 28,
+        "8": 28
+      }
+    }
+  ],
+  "complex_alias_lags": [
+    8
+  ],
+  "Nyquist_branch_boundary": 4.363323129985824
+}

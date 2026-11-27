@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-11-04T13:36:55.002493+00:00",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "config_sha256": "6eb07c9b5b940ddc901a22db03b74c2ed3ca4039b8394a7ac23a386e8880be1e",
+  "n_rows": 1080,
+  "invalid_R": 85
+}

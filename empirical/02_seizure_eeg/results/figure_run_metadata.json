@@ -1,0 +1,36 @@
+{
+  "edf": "data/chb01_03.edf",
+  "annotation_source": "explicit_physionet_fallback_in_script",
+  "onset_s": 2996.0,
+  "offset_s": 3036.0,
+  "data_channels": 16,
+  "sampling_hz": 32.0,
+  "window_sec": 40,
+  "hop_sec": 2,
+  "ridge_rel": 0.003,
+  "shrinkage_alpha": 0.05,
+  "methods": [
+    "M2",
+    "M3"
+  ],
+  "min_rho_full_required": "rho(F)<1",
+  "R_A_definition": "corrected continuous-time reduced threshold",
+  "R_sigma_definition": "corrected one-step reduced threshold",
+  "kappa_full": "condition number of column-normalized eigenvectors of fitted F",
+  "kappa_reduced": "condition number of column-normalized eigenvectors of Q^T F Q",
+  "parity_with_previous_verified_EDF": {
+    "reference_present": false
+  },
+  "counts": {
+    "M2": {
+      "R_A_finite": 190,
+      "R_sigma_finite": 190,
+      "kappa_reduced_finite": 201
+    },
+    "M3": {
+      "R_A_finite": 201,
+      "R_sigma_finite": 201,
+      "kappa_reduced_finite": 201
+    }
+  }
+}

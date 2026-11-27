@@ -1,0 +1,9 @@
+analysis,method,measure,eligible_events_10_full_cohort,eligible_events_40_full_cohort,eligible_events_both,independent_patients_both,full_cohort_patients_10,full_cohort_patients_40,n_chb10_20_matched,n_chb24_11_matched,chb24_07_status
+original_strictly_matched,M2,R_A,142,84,81,21,23,21,1,1,missing from 40-s run: saved code failure
+original_strictly_matched,M2,R_sigma,150,85,85,21,23,21,1,1,missing from 40-s run: saved code failure
+original_strictly_matched,M3,R_A,148,95,93,21,23,21,1,1,missing from 40-s run: saved code failure
+original_strictly_matched,M3,R_sigma,155,95,95,21,23,21,1,1,missing from 40-s run: saved code failure
+conservative_strictly_matched,M2,R_A,142,84,79,21,23,21,0,0,missing from 40-s run: saved code failure
+conservative_strictly_matched,M2,R_sigma,150,85,83,21,23,21,0,0,missing from 40-s run: saved code failure
+conservative_strictly_matched,M3,R_A,148,95,91,21,23,21,0,0,missing from 40-s run: saved code failure
+conservative_strictly_matched,M3,R_sigma,155,95,93,21,23,21,0,0,missing from 40-s run: saved code failure

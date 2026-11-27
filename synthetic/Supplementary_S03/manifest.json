@@ -1,0 +1,18 @@
+{
+  "data_source": "V19 T10, six independent subjects and 9 overlapping windows per subject per case/M/method",
+  "figure": "S3 candidate, figure-only styling",
+  "files": {
+    "data/T10_summary_by_case.csv": "6ecb64592f09e52cf6d629dee9f372f40c04332af50f153cdf4429e3782ce038",
+    "data/T10_crossing_per_subject.csv": "970813fcb8c2deed3c4fe9ce107a0650ea657c8db2f58574979bba97ebcd045a",
+    "data/T10_subject_cluster_plane_angle_CI.csv": "d1c03283f42c6cf031f0d2d9709ff0619b0b159599e11b2f17ad3b7991693cb5",
+    "data/T10_window_method_results.csv": "73f651cced5ae527ee0173deba8b37b1567acdebafb910d70e41923d41229793",
+    "figures/SuppFig03_Planted_TimeVarying_REVISED.pdf": "d9b3a5c344b5307544fb5e5323cf50a007fb13f9273f8c2ba51c1ca98f40cd34",
+    "figures/SuppFig03_Planted_TimeVarying_REVISED.png": "43dbb5439146f68434800b9f5fbcb23a7555a19cb78f0589b8a105d80a7ecb86"
+  },
+  "checks": {
+    "rows_summary": 20,
+    "window_rows": 1080,
+    "crossing_rows": 24,
+    "M12_invalid_fits": 0
+  }
+}

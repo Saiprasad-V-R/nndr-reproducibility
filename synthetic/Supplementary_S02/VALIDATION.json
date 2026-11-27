@@ -1,0 +1,112 @@
+{
+  "data_source": "V19/T09 frozen independent nonlinear physics audit",
+  "window_rows": 416,
+  "method_rows": 832,
+  "subjects_per_model": 8,
+  "windows_per_model": 104,
+  "invalid_RA_counts": {
+    "M2": [
+      44,
+      0,
+      0,
+      7
+    ],
+    "M3": [
+      42,
+      0,
+      0,
+      0
+    ]
+  },
+  "sparsely_admissible_fhn_marks": [
+    [
+      38.0,
+      3.3722810713962565,
+      4,
+      "M2"
+    ],
+    [
+      30.0,
+      3.015038308001156,
+      1,
+      "M3"
+    ],
+    [
+      38.0,
+      3.2260526481708847,
+      5,
+      "M3"
+    ]
+  ],
+  "reference_median_errors": {
+    "stat_reference_relative_error": [
+      0.12317865847773415,
+      0.012959429299043451,
+      0.018325464927177453,
+      0.31078354387392926
+    ],
+    "exp_mean_J_relative_error": [
+      0.00154096649749825,
+      0.0012901524684995,
+      0.00172119276863975,
+      0.00528064780500545
+    ]
+  },
+  "subject_cluster_bootstrap_95pct": {
+    "M2": [
+      [
+        "FHN_directed_spikes",
+        77.27426991585395,
+        68.19837684926767,
+        80.85467956141414
+      ],
+      [
+        "SL_directed_below_Hopf",
+        50.503200266993076,
+        48.23681934381784,
+        54.15823694950299
+      ],
+      [
+        "SL_directed_above_Hopf",
+        40.120856746767586,
+        35.446719389662626,
+        44.98168783370708
+      ],
+      [
+        "double_well_gradient",
+        72.50947859111068,
+        67.30794581327493,
+        75.7711247967748
+      ]
+    ],
+    "M3": [
+      [
+        "FHN_directed_spikes",
+        78.18654029126068,
+        68.37239926172825,
+        80.79782937995192
+      ],
+      [
+        "SL_directed_below_Hopf",
+        64.12428901953149,
+        59.89506553529806,
+        67.55229720900837
+      ],
+      [
+        "SL_directed_above_Hopf",
+        67.18387058428536,
+        62.111968582876614,
+        70.64758509017396
+      ],
+      [
+        "double_well_gradient",
+        76.52032706129901,
+        74.73033894658842,
+        78.41559007940033
+      ]
+    ]
+  },
+  "gradient_spurious_M2_RA_gt_one": 1,
+  "gradient_spurious_accepted_by_transferred_gate": 1,
+  "simulations_rerun": false
+}

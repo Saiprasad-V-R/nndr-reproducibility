@@ -1,0 +1,78 @@
+{
+  "experiment": "T12 dependence-preserving bootstrap coverage and M2 multistart robustness",
+  "N": 6,
+  "families": [
+    "real_near_normal",
+    "real_strong",
+    "complex_weak",
+    "complex_strong",
+    "repeated_real",
+    "near_tied_commutator"
+  ],
+  "sampling_regimes": [
+    {
+      "name": "M1_T90",
+      "M": 1,
+      "T": 90
+    },
+    {
+      "name": "M1_T240",
+      "M": 1,
+      "T": 240
+    },
+    {
+      "name": "M8_T240",
+      "M": 8,
+      "T": 240
+    }
+  ],
+  "independent_subjects": 16,
+  "bootstrap_draws": 120,
+  "innovation_sd": 0.05,
+  "burnin": 300,
+  "ridge_relative": 1e-05,
+  "block_length_rule": "max(7, round(1.5 * T**(1/3)))",
+  "m2_center_restarts": 7,
+  "m2_bootstrap_restarts": 7,
+  "m2_iterations": 100,
+  "bootstrap_minimum_admissible_fraction": 0.9,
+  "levels": [
+    0.9,
+    0.95
+  ],
+  "ci_methods": [
+    "percentile",
+    "bias_corrected"
+  ],
+  "base_seed": 121204,
+  "solver_audit_per_family": 8,
+  "solver_single_start_repeats": 24,
+  "solver_reference_starts": 40,
+  "aggregate_resamples": 1500,
+  "dimension_sensitivity": {
+    "N_values": [
+      6,
+      12,
+      24
+    ],
+    "families": [
+      "real_strong",
+      "near_tied_commutator"
+    ],
+    "sampling_regimes": [
+      {
+        "name": "M1_T90",
+        "M": 1,
+        "T": 90
+      },
+      {
+        "name": "M8_T240",
+        "M": 8,
+        "T": 240
+      }
+    ],
+    "independent_subjects": 6,
+    "bootstrap_draws": 60,
+    "m2_restarts": 5
+  }
+}

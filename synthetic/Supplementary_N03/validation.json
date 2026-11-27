@@ -1,0 +1,99 @@
+{
+  "R_A_positive": {
+    "denominator": 216,
+    "raw_detected": 199,
+    "screened_detected": 60
+  },
+  "R_A_normal": {
+    "denominator": 432,
+    "raw_detected": 4,
+    "screened_detected": 0
+  },
+  "R_sigma_positive": {
+    "denominator": 216,
+    "raw_detected": 214,
+    "screened_detected": 60
+  },
+  "R_sigma_normal": {
+    "denominator": 432,
+    "raw_detected": 45,
+    "screened_detected": 0
+  },
+  "R_A_M1_T90_oracle": {
+    "n_subjects": 96,
+    "covered": 80,
+    "estimable": 92
+  },
+  "R_A_M1_T90_selected_M2": {
+    "n_subjects": 96,
+    "covered": 27,
+    "estimable": 41
+  },
+  "R_A_M1_T240_oracle": {
+    "n_subjects": 96,
+    "covered": 86,
+    "estimable": 96
+  },
+  "R_A_M1_T240_selected_M2": {
+    "n_subjects": 96,
+    "covered": 49,
+    "estimable": 75
+  },
+  "R_A_M8_T240_oracle": {
+    "n_subjects": 96,
+    "covered": 93,
+    "estimable": 96
+  },
+  "R_A_M8_T240_selected_M2": {
+    "n_subjects": 96,
+    "covered": 70,
+    "estimable": 89
+  },
+  "R_sigma_M1_T90_oracle": {
+    "n_subjects": 96,
+    "covered": 83,
+    "estimable": 92
+  },
+  "R_sigma_M1_T90_selected_M2": {
+    "n_subjects": 96,
+    "covered": 52,
+    "estimable": 83
+  },
+  "R_sigma_M1_T240_oracle": {
+    "n_subjects": 96,
+    "covered": 88,
+    "estimable": 96
+  },
+  "R_sigma_M1_T240_selected_M2": {
+    "n_subjects": 96,
+    "covered": 57,
+    "estimable": 86
+  },
+  "R_sigma_M8_T240_oracle": {
+    "n_subjects": 96,
+    "covered": 93,
+    "estimable": 96
+  },
+  "R_sigma_M8_T240_selected_M2": {
+    "n_subjects": 96,
+    "covered": 69,
+    "estimable": 89
+  },
+  "correct_VAR1_gate_false_rejection": {
+    "rejected": 33,
+    "total": 900,
+    "source": "T08_report.md"
+  },
+  "M2_solver_audit": {
+    "records": 144,
+    "starts_per_record": 24,
+    "median_hit_fraction": 0.2083333333333333
+  },
+  "source_files": {
+    "T12_solver_audit.csv": "54b672ec2729870afd5072f292d5a0d80e4c2dba72561677dc6539e621d51029",
+    "T12_interval_results.csv": "293bf9dd959cdbeebdd983d691430d431483517cbca7c92daf9d51548b34cf44",
+    "T08_subject_cluster_bootstrap_intervals.csv": "3e494a93a1a7269fe5224d497808385f3b331950f6a92ac36d19fcfb4ec15a69",
+    "T08_holdout_power_FPR_and_rejection.csv": "013920bb6e146dd9e9242ce5d62b13adf7cb144d922a74aaa2605aef03691e79",
+    "T08_holdout_diagnostic_rejection_by_family.csv": "b7d601390c988085853524fd011d945f94d7e6b5f7ee99e2d750d71ec10d5011"
+  }
+}

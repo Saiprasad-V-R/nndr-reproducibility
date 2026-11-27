@@ -1,0 +1,21 @@
+{
+  "module":"T01-Fig03",
+  "source_manuscript":"arXiv:2607.14786v1, Figure 3 (printed p.9), model Eq.(43)-(44)",
+  "revision_convention":"primary R=K/Kc on generator rates log(Gamma); companion R_sigma exact one-step",
+  "N":200,
+  "rho_F":0.95,
+  "delta_sigma":0.05,
+  "family_seed":1,
+  "sigma_noise":0.05,
+  "T":600,
+  "common_noise_seed":123,
+  "M_replicates":25,
+  "extra_noise_seed":124,
+  "m2_restarts":24,
+  "m2_iterations":450,
+  "m2_seed":0,
+  "historical_kappas":[1.6666666666666665,6.733333333333333,63.464580969499856,196.47575793337583],
+  "historical_R_multipliers":[0.10420101767182434,1.0101447066863536,9.80398573548989,30.36034832560663],
+  "recalibrated_target_R_rates":[0.1,1.0,9.8,30.0],
+  "tolerances":{"operator_spectrum":1e-10,"m2_orthogonality":1e-9,"recalibrated_target_absolute":0.015}
+}

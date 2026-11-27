@@ -1,0 +1,44 @@
+{
+  "figure": "Fig04",
+  "base_dir": "archived-location/NNDR_Figure04_Original_Style",
+  "parameters": {
+    "N": 200,
+    "RHO": 0.95,
+    "DELTA_SIGMA": 0.05,
+    "CFG_SEED": 1,
+    "SIGMA_NOISE": 0.05,
+    "T_ALIGN": 1000,
+    "N_ALIGN_REPEATS": 16,
+    "NOISE_SEED_ALIGN": 2468,
+    "n_kappa_grid": 116
+  },
+  "outputs": {
+    "Fig04_RA_only_pdf": {
+      "path": "archived-location/NNDR_Figure04_Original_Style/outputs_synthetic_figures/Fig04_RA_only.pdf",
+      "sha256": "e304225d71df4d331d588d4bf375fc6912d7f8d7434babbceb9a6697b5773ca6"
+    },
+    "Fig04_RA_only_png": {
+      "path": "archived-location/NNDR_Figure04_Original_Style/outputs_synthetic_figures/Fig04_RA_only.png",
+      "sha256": "40e0877f621df08d0b4ca407d177e9f2032a266755c9a866c06d0093949f2232"
+    },
+    "Fig04_RA_Rsigma_pdf": {
+      "path": "archived-location/NNDR_Figure04_Original_Style/outputs_synthetic_figures/Fig04_RA_Rsigma.pdf",
+      "sha256": "d750e895ee075e9ee5faec9a83d39f3eab3844158b8c2e23b832fa0f7accb36b"
+    },
+    "Fig04_RA_Rsigma_png": {
+      "path": "archived-location/NNDR_Figure04_Original_Style/outputs_synthetic_figures/Fig04_RA_Rsigma.png",
+      "sha256": "63bbd09590a17d142ca4c6676758f12483fd48fea1d0637a907b38d02458f2d7"
+    },
+    "csv": {
+      "path": "archived-location/NNDR_Figure04_Original_Style/outputs_synthetic_figures/Fig04_alignment_points_corrected_ratios.csv",
+      "sha256": "459d4b7a3c868f2ffe0047fcc579cda46319af4475a3b25c0ab5e408dc195fd6"
+    }
+  },
+  "curve_summary": {
+    "min_R_A_kept": 0.05616552549995447,
+    "max_R_A_kept": 94.19413510268109,
+    "min_R_sigma_kept": 0.09879760680634325,
+    "max_R_sigma_kept": 135.49341942813726,
+    "n_points_kept": 113
+  }
+}

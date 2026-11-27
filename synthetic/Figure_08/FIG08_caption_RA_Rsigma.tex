@@ -1,0 +1,32 @@
+% Revised Fig. 8 (broad singular-value spectra) — RA-primary version.
+\caption{Recovery of an embedded response plane against a broad singular-value background.
+The full stable operator is $F=O\,\mathrm{diag}(B_R,D_\beta)O^\top$,
+with $D_\beta=\mathrm{diag}(0.74 j^{-\beta})$ and
+$\beta\in\{0.25,0.75,1.25,1.75,2.25\}$.
+The coupling of the planted two-dimensional block is recalibrated to the corrected
+continuous-time rate-based reference ratios
+$R_{A,\star}\in\{1,3,10,30\}$, while its eigenvalues remain
+$0.945$ and $0.455$. These are new coupling strengths, not relabeled historical
+matrices. The independently specified reference plane is $Q_\star=O_{:,1:2}$.
+The experiment uses $N=80$, eight independent seeds per setting, $M=18$ independent
+training trajectories of 220 one-step transitions, Gaussian innovation standard
+deviation $0.035$, and absolute ridge regularization $10^{-4}$.
+(a) Full-operator singular spectra normalized by $\sigma_1(F)$ at
+$R_{A,\star}=3$. (b) Largest principal-angle error between the extracted and
+planted planes, with means and standard errors across all 4 strengths and 8
+seeds at each exponent. All 320 method evaluations enter (b).
+(c) Mean absolute ratio-recovery error
+$\mathcal{E}_{R_A}=\left|\log_{10}(\widehat R_A/R_{A,\star})\right|$
+for admissible reduced matrices only, with standard errors.
+(d) Inferred $\widehat R_A$ versus independently imposed $R_{A,\star}$;
+the dashed line indicates equality. Circles denote M2 and triangles M3.
+In the companion version, faint dotted curves in (c) show the corresponding
+$\mathcal{E}_{R_\sigma}=|\log_{10}(\widehat R_\sigma/R_{\sigma,\star})|$,
+and faint open markers in (d) show $\widehat R_\sigma$ against its own
+matching reference $R_{\sigma,\star}$, not against $R_{A,\star}$.
+$R_\sigma$ is defined for 289/320 fitted maps, compared with 288/320 for $R_A$.
+The $R_A$ ratio is inadmissible in 32/160 M2 fits, all at
+$R_{A,\star}=1$ (31 unstable reduced compressions and one negative-real
+reduced multiplier); no values are imputed in panels (c,d).
+All 160 M3 fits are admissible. The weak-amplification regime exhibits
+substantially larger plane errors despite recovery at stronger couplings.}

@@ -1,0 +1,20 @@
+{
+  "N_embedded": 40,
+  "T_train": 360,
+  "M_values": [1, 25],
+  "noise_sd": 0.035,
+  "ridge_relative": 0.0001,
+  "seed_base": 320401,
+  "replicates": 4,
+  "lag_values": [1, 2, 4, 8],
+  "geometry_fixed": 3.0,
+  "spectra_varying_rates": [[0.03,0.15],[0.05,0.25],[0.08,0.32],[0.10,0.46]],
+  "spectrum_fixed_rates": [0.05,0.25],
+  "geometry_varying": [0.3,1.0,3.0,6.0],
+  "reference_background_radius": 0.62,
+  "complex_rate_gamma": 0.07,
+  "complex_frequency_omega": 0.72,
+  "complex_nonnormal_similarity": 1.8,
+  "m2_restarts": 9,
+  "m2_iterations": 230
+}

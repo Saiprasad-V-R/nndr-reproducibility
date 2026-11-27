@@ -1,0 +1,27 @@
+{
+  "id": "T01-Fig04",
+  "time_utc": "2026-10-20",
+  "elapsed_seconds": 7.2179343700408936,
+  "n_grid": 116,
+  "n_noise_trials_per_grid": 16,
+  "shared_random_numbers": true,
+  "noise_sha256": "c7041f15ceaa535fe5100431d05d21270c0c08710eec8312f4c285c87ae0496c",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "source_sha256": {
+    "run.py": "59e61c311968e5ca3325e815723ce73de59f99e28f41e8e98c88beeedf7ae5fa",
+    "config.json": "1c4268cdd7c3f23abd7cf0674606605013212d64454c25710ba30cdc25370146",
+    "nndr_thresholds.py": "5f12b65d9162ac60972255ab5d8bf395ff7a31044f3fc149c0c4a5e7bc570e83",
+    "nndr_planes.py": "1c4fcd4b81b11990aa94e44c50aeefc9b1f8b437dba9a302ba98c9d399053b93",
+    "nndr_synthetic_operators.py": "404dc17ee4ba92d07f560d1e6ccbab894bd5e87e09f688d21cd75345d8c3a4ac"
+  },
+  "checks": {
+    "full_spectrum_fixed": true,
+    "exact_similarity_simulation": true,
+    "full_lyapunov_crosscheck": true,
+    "quantiles_valid": true,
+    "two_thresholds_separate": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T08 outcome-blind five-test model adequacy on replayed T06/T07 paired recordings",
+  "calibration_quantile_per_test": 0.99,
+  "calibration_fraction_rep_even": true,
+  "heldout_fraction": 0.2,
+  "ridge_relative": 0.001,
+  "lag_horizons": [
+    2,
+    4
+  ],
+  "portmanteau_lags": 6,
+  "energy_lags": 6,
+  "phase_surrogates": 15,
+  "seed_surrogates": 380081,
+  "run_t06": true,
+  "run_t07": true,
+  "exclude_trace_matched_secondary": true,
+  "max_records_for_smoke": null,
+  "reuse_replay_cache": false
+}

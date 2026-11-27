@@ -1,0 +1,12 @@
+{
+  "experiment": "T01 submitted Figure 7: causal moving-window recovery, rates-based R",
+  "N": 100, "M": 1, "T": 600, "W": 80, "step": 10,
+  "kappa_start": 1.0, "kappa_end": 200.0,
+  "rho": 0.95, "delta_sigma": 0.05, "sigma_noise": 0.05,
+  "family_seed": 7, "noise_seed": 5678,
+  "ridge_relative_grid": [1e-6, 3e-6, 1e-5, 3e-5, 1e-4, 3e-4, 1e-3, 3e-3, 1e-2, 3e-2, 1e-1],
+  "cv_train_fraction": 0.8,
+  "reference_m2_restarts": 14, "estimated_m2_restarts": 8,
+  "m2_iterations": 280, "m2_seed": 0,
+  "figure_dpi": 240
+}

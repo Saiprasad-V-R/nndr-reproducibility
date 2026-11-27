@@ -1,0 +1,16 @@
+{
+  "name": "NNDR RevFig01 methods",
+  "type": "plot-only manuscript figure",
+  "input_source": "V19 T02 frozen numerical outputs",
+  "sha256": {
+    "FIGURE_AUDIT.md": "0f3b817e1b35b52d93b63a7b1a2c119faf72817c990fb0965d58b521664fa820",
+    "README.md": "c0f6da12bd1df104d8d348f906bc53133a3254cc89c4f01683d09335c28a0d6d",
+    "RevFig01_caption.tex": "9a9ab61b69bacc8d43f1e8fbffc162290e8f57da352fdfb55adf0be64697200e",
+    "data/T02_angle_bootstrap_intervals.csv": "f35b35b34234df080f8d4834229ae27235f544d2b148166462ea3849ae8903ef",
+    "data/T02_group_summary.csv": "6d7172bf96408ad30fbfac41bbf5036aba8ab8d7d2278474b660e7f49e686e2d",
+    "data/T02_snapshot_horizons.csv": "d3d720ebf72fcbe2eb68600aa94d941f4054a7ef8520897315db34fb27b35d7d",
+    "figures/RevFig01_methods.pdf": "c95f6479f5124803ab73c549d532db8af0244b510aaa5319a1c1542e1e4bfbe2",
+    "figures/RevFig01_methods.png": "6cfd90425882b0f244a7a40904a688d005234d21cb5a3063be8f764fbc1844d4",
+    "plot_revfig01.py": "778e3944fe120faebb365437c228ae7c1e6f1569e5e45bd5f34c4e5af170db27"
+  }
+}

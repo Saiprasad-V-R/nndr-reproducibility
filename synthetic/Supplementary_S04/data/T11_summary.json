@@ -1,0 +1,38 @@
+{
+  "controlled_physical_operators": 72,
+  "independent_base_subjects": 18,
+  "controlled_fits": 432,
+  "original_Fig06_method_rows": 184,
+  "DK_inequality_passed": true,
+  "DK_nonvacuous": 36,
+  "n_lt_N": 48,
+  "M3_R_inadmissible": 135,
+  "M2_R_inadmissible": 175,
+  "max_comm_inequality_ratio": 0.4234255267990112,
+  "max_legacy_gap_discrepancy": 2.1316282072803006e-14,
+  "high_data_fraction_0.0": {
+    "M3_median_angle": 9.014469458268946,
+    "M2_median_angle": 15.183915871244793,
+    "DK_nonvacuous_count": 18,
+    "n": 18
+  },
+  "high_data_fraction_0.5": {
+    "M3_median_angle": 9.114581995279277,
+    "M2_median_angle": 15.336470215465955,
+    "DK_nonvacuous_count": 12,
+    "n": 18
+  },
+  "high_data_fraction_0.9": {
+    "M3_median_angle": 12.480494428409152,
+    "M2_median_angle": 19.377137381676768,
+    "DK_nonvacuous_count": 0,
+    "n": 18
+  },
+  "high_data_fraction_0.98": {
+    "M3_median_angle": 19.21130192266993,
+    "M2_median_angle": 23.012632416595803,
+    "DK_nonvacuous_count": 0,
+    "n": 18
+  },
+  "duration_sec": 8.486765776999846
+}

@@ -1,0 +1,18 @@
+{
+  "source": "V19_T09_frozen",
+  "artifacts": {
+    "README.md": "2a0a1ecfa60e9cc67b1a7acc24db02181f11b6efffd48a95e2260fcf86304e61",
+    "plot_suppfig02.py": "0f7a8f216552c4f2fc6bcfa7ae6e1d4df41a2d2d71cda1335f06b7af7e23ef18",
+    "SuppFig02_caption.tex": "3ccc09b7602a65534b318e18cdb92a9d8786b7eb569e2abdf6a88e5d073a8fad",
+    "VALIDATION.json": "1624e495b6ee180a0658ad433dc9add689f529ea4371205b9c52a4d2ebf1fc8a",
+    "SuppFig02_Nonlinear_Tangent_POLISHED.pdf": "fa54ef252b8b055eb8860583332f2c6395c84f083f7c53095772a4db488d1ad9",
+    "SuppFig02_Nonlinear_Tangent_POLISHED.png": "c022808b643e216c36d08b64e36ecaf3890d4412d8b4d268ef3ddf5c91e33e44",
+    "T09_all_method_results.csv": "a4e510debdc3be938b14489741ddf890296a9e0f0c8dd39f909aa9c0ee8a4dd7",
+    "T09_window_truth_and_fit.csv": "55d5cabd3c8a2a15773f77c658f432389a4ce929661898cd7e10d7559e1f3555",
+    "T09_numerical_jacobian_checks.csv": "08a93dbea72263cd9abc431c678c05dc55759b66105ce43cfae738961f46749a",
+    "T09_spurious_detections_and_gate.csv": "8eafba6905fb264d0676104d1fb4a3099271ca628f251d743d51fc339dafdb90",
+    "T09_report.md": "dc626b0bead3f6270d0afee6d04674cfc969e160d96ef290225e360f8157cab8",
+    "T09_config.json": "247c3e74caf93a4d44945aeab2f1c7a9be2a884d9423f76c603f780ed062d2b8"
+  },
+  "standalone_regeneration_identical_png": true
+}

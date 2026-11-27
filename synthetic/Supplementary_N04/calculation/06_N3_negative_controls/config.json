@@ -1,0 +1,27 @@
+{
+  "description": "T06 false-positive negative controls; all stochastic subjects are independent across seeds, paired baseline/event shocks within subject. Finite data, fixed design, and preliminary screens (not T08 full adequacy calibration).",
+  "N": 12,
+  "M": 6,
+  "T_train": 180,
+  "replicates": 24,
+  "seed_base": 630026,
+  "innovation_sd": 0.075,
+  "ridge_relative": 0.001,
+  "m2_restarts": 6,
+  "m2_iterations": 140,
+  "population_reference_M": 250,
+  "population_reference_replicates": 1,
+  "population_reference_seed": 730000,
+  "permutation_draws": 16384,
+  "perm_seed": 9811,
+  "screen_lag_corr_multiplier": 3.5,
+  "screen_variance_ratio_cutoff": 1.8,
+  "families": [
+    "gaussian_VAR1", "isotropic_bursts", "common_mode_bursts", "coloured_isotropic",
+    "coloured_spatial", "observation_noise", "switch_commuting",
+    "switch_noncommuting", "cubic_saturation", "SL_below_Hopf",
+    "VAR2_commuting", "VAR2_noncommuting", "weak_beta0p5_dt1_W80",
+    "weak_beta2_dt1_W80", "weak_beta8_dt1_W80", "weak_beta8_dt1_W180",
+    "weak_beta20_dt1_W180", "weak_beta20_dt4_W180"
+  ]
+}

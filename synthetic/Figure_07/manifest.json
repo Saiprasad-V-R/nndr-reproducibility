@@ -1,0 +1,23 @@
+{
+  "figure": "Fig07_timevarying",
+  "outputs": {
+    "RA_only_pdf": {
+      "path": "archived-location/NNDR_TimeVarying_OriginalStyle_ManuscriptFig07/outputs_synthetic_figures/Fig07_timevarying_RA_only.pdf",
+      "sha256": "4dc65739fee969690efc3754bf8924a06a27506306e2e03e40982b3f73b98410"
+    },
+    "RA_only_png": {
+      "path": "archived-location/NNDR_TimeVarying_OriginalStyle_ManuscriptFig07/outputs_synthetic_figures/Fig07_timevarying_RA_only.png",
+      "sha256": "d83ab416548346023ac0afeecc52547a2d7ce97886e957d6014b476b1db0c6e6"
+    },
+    "RA_Rsigma_pdf": {
+      "path": "archived-location/NNDR_TimeVarying_OriginalStyle_ManuscriptFig07/outputs_synthetic_figures/Fig07_timevarying_RA_Rsigma.pdf",
+      "sha256": "3812a06fa08147a384bbcf1ccf659ac1a707153a5668239f3ab486ca18fa6b6f"
+    },
+    "RA_Rsigma_png": {
+      "path": "archived-location/NNDR_TimeVarying_OriginalStyle_ManuscriptFig07/outputs_synthetic_figures/Fig07_timevarying_RA_Rsigma.png",
+      "sha256": "5207e6dc817a0afd3aefef2fb339df891cbb2c7d61f71f7ea2472c4ed32fd352"
+    }
+  },
+  "n_rows_M25": 43,
+  "n_rows_M1": 43
+}

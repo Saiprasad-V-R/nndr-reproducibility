@@ -1,0 +1,42 @@
+{
+  "m2_m3_frozen_subjects_per_intervention": 20,
+  "normal_control_n": 30,
+  "max_fitted_normal_RA": 0.2001367735592551,
+  "max_fitted_normal_Rsigma": 0.247853835569302,
+  "log_identity_max_abs_residual": 3.885780586188048e-16,
+  "summary_medians_planted_spectrum_only": {
+    "contrast_log_K": 0.0007124300054565001,
+    "contrast_log_Kc_variance": 0.47219135716961036,
+    "contrast_log_R_variance": -0.47546010857485194
+  },
+  "files": {
+    "figures/RevFig02_RA_Rsigma.pdf": {
+      "sha256": "1b3d71078c99016158154e3def92ac0b09292723db68f8a188232679db07d5ed",
+      "bytes": 42864
+    },
+    "figures/RevFig02_RA_Rsigma.png": {
+      "sha256": "988aaa23c06c6fb69e20e8eefd048ba11e574202ad04b1bc3979f03304705967",
+      "bytes": 430395
+    },
+    "figures/RevFig02_RA_only.png": {
+      "sha256": "c39643e2804dfc83a07ab40b956b4f6bf6163e7b9411084450b8f5ae8a5746a9",
+      "bytes": 389273
+    },
+    "figures/RevFig02_RA_only.pdf": {
+      "sha256": "df11534216c01923239ee7d8bad0d4dcf9806c0f1e90a9f05a5eaf6415f26233",
+      "bytes": 41448
+    },
+    "data/T04_normal_spectrum_controls.csv": {
+      "sha256": "88bdd1e44f2155f10a8829831d43206db2ffba41c6858e3db792fe668a309d6e",
+      "bytes": 9526
+    },
+    "data/T05_all_paired_contrasts.csv": {
+      "sha256": "81993ebb39e138370e52d39fa24d0f80302f40ba4f4d54c35ece100632242336",
+      "bytes": 417530
+    },
+    "data/T05_method_summary.csv": {
+      "sha256": "2bf4ab132125f8a24d37caf6bc75b7f09c0ee6d57323402fc87a306fe20dda7e",
+      "bytes": 6707
+    }
+  }
+}

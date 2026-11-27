@@ -1,0 +1,33 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# System and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary output and local secrets
+*.tmp
+*.temp
+*.log
+.env
+.env.*
+*.pem
+*.key
+
+# Push-up example contains an owner-supplied recording and derived traces.
+# Keep the entire local example out of the initial public commit pending permission.
+empirical/04_pushup/

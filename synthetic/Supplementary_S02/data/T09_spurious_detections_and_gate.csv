@@ -1,0 +1,13 @@
+family,condition,method,windows,subjects,reference_RA_valid,known_tangent_RA_gt1,reference_RA_le1,inferred_RA_valid,inferred_RA_gt1,spurious_RA_gt1_on_known_subthreshold,spurious_caught_by_gate,spurious_accepted_by_gate,gate_rejected,accepted_and_detected,invalid_rate_fraction,median_plane_angle_vs_tangent
+FHN_directed_spikes,before_pulse,M2,24,8,24,24,0,24,18,0,0,0,24,0,0.0,51.74453546093449
+FHN_directed_spikes,before_pulse,M3,24,8,24,24,0,24,18,0,0,0,24,0,0.0,51.97568609296718
+FHN_directed_spikes,overlaps_pulse,M2,40,8,40,8,32,0,0,0,0,0,40,0,1.0,83.90881975593217
+FHN_directed_spikes,overlaps_pulse,M3,40,8,40,8,32,1,1,1,1,0,40,0,0.975,85.58425991460142
+FHN_directed_spikes,after_pulse,M2,40,8,40,0,40,36,6,6,6,0,40,0,0.1,58.430564754485275
+FHN_directed_spikes,after_pulse,M3,40,8,40,0,40,37,7,7,7,0,40,0,0.075,69.61074260700036
+SL_directed_below_Hopf,below_Hopf,M2,104,8,104,0,104,104,0,0,0,0,6,0,0.0,50.503200266993076
+SL_directed_below_Hopf,below_Hopf,M3,104,8,104,0,104,104,0,0,0,0,6,0,0.0,64.12428901953149
+SL_directed_above_Hopf,above_Hopf,M2,104,8,104,0,104,104,0,0,0,0,4,0,0.0,40.120856746767586
+SL_directed_above_Hopf,above_Hopf,M3,104,8,104,0,104,104,0,0,0,0,4,0,0.0,67.18387058428536
+double_well_gradient,gradient_equilibrium,M2,104,8,104,0,104,97,1,1,0,1,44,1,0.0673076923076923,72.50947859111068
+double_well_gradient,gradient_equilibrium,M3,104,8,104,0,104,104,0,0,0,0,44,0,0.0,76.52032706129901

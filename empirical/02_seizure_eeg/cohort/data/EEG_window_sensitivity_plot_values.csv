@@ -1,0 +1,13 @@
+panel,sample,measure,method,quantity,window_sec,n_patients,median,q25,q75,iqr
+A,conservative_strictly_matched,R_A,M2,patient_recording_median_log2_ictal_over_baseline,10,21,0.035517940127715399,-0.095081452032685101,0.20116828536317849,0.29624973739586358
+A,conservative_strictly_matched,R_A,M2,patient_recording_median_log2_ictal_over_baseline,40,21,0.0462779217937263,-0.15343962299903291,0.4028987916463842,0.55633841464541711
+C,conservative_strictly_matched,R_A,M2,within_patient_paired_difference_D40_minus_D10,,21,0.075972328552973395,-0.1137078552789304,0.23591889994883261,0.34962675522776299
+A,conservative_strictly_matched,R_A,M3,patient_recording_median_log2_ictal_over_baseline,10,21,0.0016394814039868001,-0.2202565186879322,0.20586646381640961,0.42612298250434177
+A,conservative_strictly_matched,R_A,M3,patient_recording_median_log2_ictal_over_baseline,40,21,0.024194431024601799,-0.18636018848932001,0.23813937508716079,0.42449956357648078
+C,conservative_strictly_matched,R_A,M3,within_patient_paired_difference_D40_minus_D10,,21,0.0781679089339469,-0.1065098579954704,0.17901822392263159,0.28552808191810197
+B,conservative_strictly_matched,R_sigma,M2,patient_recording_median_log2_ictal_over_baseline,10,21,-0.033329335721491098,-0.15252826308143,0.22821211308360251,0.38074037616503253
+B,conservative_strictly_matched,R_sigma,M2,patient_recording_median_log2_ictal_over_baseline,40,21,-0.087101233691318405,-0.2908459180156478,0.27585826520209278,0.56670418321774063
+C,conservative_strictly_matched,R_sigma,M2,within_patient_paired_difference_D40_minus_D10,,21,-0.13432429314702179,-0.18888183231168609,0.1830357360996557,0.37191756841134183
+B,conservative_strictly_matched,R_sigma,M3,patient_recording_median_log2_ictal_over_baseline,10,21,-0.027738096990927,-0.26761197926365121,0.30541156790285567,0.57302354716650683
+B,conservative_strictly_matched,R_sigma,M3,patient_recording_median_log2_ictal_over_baseline,40,21,-0.045220007990820002,-0.2783584024603219,0.4005583884942337,0.67891679095455559
+C,conservative_strictly_matched,R_sigma,M3,within_patient_paired_difference_D40_minus_D10,,21,-0.0123729143981831,-0.1926642735521723,0.1074966787604805,0.30016095231265283

@@ -1,0 +1,23 @@
+{
+  "N": 80,
+  "M_values": [1, 18],
+  "T_train": 220,
+  "noise_sd": 0.035,
+  "ridge_relative": 0.001,
+  "seed_base": 460100,
+  "replicates": 8,
+  "horizons": [1, 2, 5, 10, 20, 50],
+  "families": ["dominant_embedded", "competing_nonnormal_background", "two_near_tied_blocks", "eq44_fixed_spectrum"],
+  "m2_restarts": 10,
+  "m2_iterations": 250,
+  "eq44_kappa": 25.0,
+  "background_beta": 0.75,
+  "background_scale": 0.74,
+  "embedded_a": 0.945,
+  "embedded_b": 0.455,
+  "target_R_dominant": 10.0,
+  "target_R_competing": 3.0,
+  "target_R_two_blocks": 6.0,
+  "pair_rank_tolerance": 1e-8,
+  "first_report": "N1a-N1b-N1d; no bootstrap or external snapshot-paper regularizer claimed"
+}

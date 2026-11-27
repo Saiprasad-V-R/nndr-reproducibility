@@ -1,0 +1,10 @@
+{
+  "config_sha256": "8641e76bd340180eaef2053900f5f73ee35976e74191d40e6dca9900794ebdcd",
+  "script_sha256": "fa7e4b2f9d4d15f685a8add9c57c34ae38ccc00578b4344fe8e5d152666f4593",
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "timing_seconds": 4.014995203000126
+}

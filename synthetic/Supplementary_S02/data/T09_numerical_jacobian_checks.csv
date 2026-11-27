@@ -1,0 +1,5 @@
+family,instantaneous_J_max_abs_error,sample_variational_max_abs_error,gradient_J_asymmetry
+FHN_directed_spikes,2.6755486715046572e-11,2.282442889339287e-10,1.085
+SL_directed_below_Hopf,1.3543166588192435e-11,4.4892001278162847e-11,2.2
+SL_directed_above_Hopf,9.211506557527116e-12,3.5129752090630326e-11,2.2
+double_well_gradient,6.901146321069973e-11,1.1010182579562246e-10,0.0

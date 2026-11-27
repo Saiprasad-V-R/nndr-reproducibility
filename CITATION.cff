@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Cite the manuscript and the exact repository commit used. Cite the original datasets separately."
+title: "NNDR manuscript reproduction resources"
+type: software
+authors:
+  - family-names: Saiprasad
+    given-names: V. R.
+  - family-names: Troude
+    given-names: V.
+  - family-names: Sornette
+    given-names: D.
+repository-code: "https://github.com/Saiprasad-V-R/nndr-reproducibility"
+preferred-citation:
+  type: article
+  title: "Inferring Non-Normal Amplification Geometry from Multivariate Time Series"
+  authors:
+    - family-names: Saiprasad
+      given-names: V. R.
+    - family-names: Troude
+      given-names: V.
+    - family-names: Sornette
+      given-names: D.
+  identifiers:
+    - type: other
+      value: "arXiv:2607.14786"
+      description: "Preprint identifier"
+  url: "https://arxiv.org/abs/2607.14786"
+  year: 2026

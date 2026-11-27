@@ -1,0 +1,25 @@
+{
+  "figure": "RevFig04_coloured_forcing",
+  "source_protocols": [
+    "V19_T06_negative_controls",
+    "R28_12Nov2026_note_aggregate_counts"
+  ],
+  "n_file_inputs": 5,
+  "files_sha256": {
+    "README.md": "bed8e5895ab6197ee0601e8b6a33001a326bf135fafe5ca1e64e0c68d25a2fcb",
+    "RevFig04_caption.tex": "0facc7a187ce77decc00733298301433695bcf3a627f58de801782c092c57326",
+    "data/R28_normalF_finite_record_counts_transcribed.csv": "41fb3f3be7835a42fa42e9ddf374e1d7ba0d3cf80bb43f2a46a3cc96daf6eb1e",
+    "data/R28_whiteness_T500_counts_transcribed.csv": "7df7d6d46c42e80faa149f57b2215e70699ba9fae7e8ae697258b6d6e78857e1",
+    "data/T06_large_ensemble_references.csv": "c3812e6d41c6d5b91c871767e96b6ad3b7b4f8ccc5335efa93801ed00a1a3531",
+    "data/T06_subject_method_results.csv": "22549a557d38a0a9b7d8231a81cd252ef01ca2d2967abb52d3725362981b1a0d",
+    "data/T06_typeI_Wilson_summary.csv": "7f945148c745881a47f0a71d0531740d301f7696bfe4655ab0a5835175853004",
+    "figures/RevFig04_RA_Rsigma.pdf": "19b0a7083a33f16c3416052241f313052344e1c5e389ade4ba9707f4544464db",
+    "figures/RevFig04_RA_Rsigma.png": "4c5b61778419750c7c3d836609a2167681f6334b94d8e8b0c39f5f4cf64ed1d9",
+    "figures/RevFig04_RA_only.pdf": "0860dfab553a8efa9661766cf6e5b1889dd6e14380d7c53d8150706314bf84db",
+    "figures/RevFig04_RA_only.png": "d0598d9043b5069ab46fd9e3703bba2d0da8434a7280ba280910ee267bdf545c",
+    "plot_revfig04_coloured_forcing.py": "a6673e2309cb9f25ee036e8ff0c53488b0e732b06093fc5d4a7215d9b6b7d73d",
+    "source_notes/NNDR_R28_Virgile_12Nov2026.pdf": "cf14041167628148e2e82c97a17047bf3c6236d6b74d927b0b4acca6d55d9b2e",
+    "source_notes/T06_report.md": "2e9c5bcedeaf8c2a2e34760fe4ab8301bf9102fe90f4b2f3bb6a3cdfbc099d05"
+  },
+  "notes": "R28 finite-record and whiteness CSVs contain verbatim source-note aggregate counts, not unprovided fit-level data."
+}

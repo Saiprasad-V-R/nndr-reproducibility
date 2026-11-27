@@ -1,0 +1,19 @@
+{
+  "description": "T10 independent rotating planted-plane recovery; M1 versus pooled M12; M2/M3; known instantaneous vs window references",
+  "N": 10,
+  "T": 400,
+  "window": 80,
+  "stride": 40,
+  "seed_base": 106201,
+  "independent_subjects": 6,
+  "M_values": [1,12],
+  "noise_sd": 0.035,
+  "angle_max_slow_rad": 0.65,
+  "angle_max_fast_rad": 2.5,
+  "m2_restarts": 6,
+  "m2_iterations": 130,
+  "ridge_relative": 0.0001,
+  "cases": ["stationary", "slow_rotation", "fast_rotation", "threshold_crossing", "noise_variance_jump"],
+  "bootstrap_draws": 400,
+  "bootstrap_seed": 106202
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Submitted Figure 5: 29 fixed-spectrum kappa values; N=100, M=1/25, 300 pairs per independent training trajectory, one 1200-step test trajectory; true M2 reference. Rates-based R and exact R_sigma.",
+  "N": 100,
+  "rho": 0.95,
+  "delta_sigma": 0.05,
+  "sigma_noise": 0.05,
+  "family_seed": 1,
+  "noise_train_seed": 111,
+  "noise_test_seed": 222,
+  "T_train": 300,
+  "T_test": 1200,
+  "M_values": [1,25],
+  "kappas": [1.0,1.25,1.5,1.75,2.0,2.25,2.5,2.75,3.0,3.5,4.0,4.5,5.0,5.5,6.0,6.5,7.0,8.0,10.0,13.0,17.0,25.0,40.0,65.0,100.0,160.0,260.0,420.0,660.0],
+  "cv_train_frac": 0.8,
+  "cv_nu_rel": [1e-8,3.1622776601683795e-8,1e-7,3.1622776601683795e-7,1e-6,3.1622776601683795e-6,1e-5,3.1622776601683795e-5,1e-4,3.1622776601683795e-4,1e-3,3.1622776601683795e-3,1e-2,3.1622776601683795e-2,1e-1,3.1622776601683795e-1,1.0],
+  "m2_restarts": 12,
+  "m2_iterations": 300,
+  "m2_seed": 17,
+  "common_random_numbers_across_kappa": true,
+  "strict_no_rescale_stability": true,
+  "figure_dpi": 250
+}
